@@ -13,8 +13,11 @@ Task 2: Create a file called message.js. In this file, create an object greeting
 -------------------------------------------------------------------------------------------
 Task 3 & 4 & 5: Using ES Modules for Import and Export
 This task utilizes ES Module syntax with export and import to manage named and default exports in JavaScript.
+
 Task 3: First, run npm init in your project directory to generate a package.json file. Make sure to add "type": "module" at the top level of your package.json so that Node.js recognizes ES module syntax. Create a file called greetings.js. In this file, export two named functions: sayHello that returns "Hello, World!" and sayGoodbye that returns "Goodbye, everyone!". Then, create a main.js file. In main.js, import both sayHello and sayGoodbye from greetings.js and log their return values to the console.
+
 Task 4: First, run npm init in your project directory to generate a package.json file. Make sure to add "type": "module" at the top level of your package.json so that Node.js recognizes ES module syntax. Create a file called animals.js. In this file, define a default export object with properties species: "Tiger" and sound: "Growl". Create another file called zoo.js and import the default export from animals.js. Use console.log to display the animal's species and sound.
+
 Task 5: First, run npm init in your project directory to generate a package.json file. Make sure to add "type": "module" at the top level of your package.json so that Node.js recognizes ES module syntax. Create a file called mathOperations.js. Export a default function add(a, b) that returns the sum of a and b. Also, create a named export subtract(a, b) that returns the difference between a and b. Then, create a calculator.js file and import both the default export and the named export from mathOperations.js. Use these functions to perform addition and subtraction, and log the results.
 
 -------------------------------------------------------------------------------------------
