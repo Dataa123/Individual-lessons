@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <title>Frontend Mentor | GitHub user search app</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+<body>
+
+  <main>
+    <div class="header">
+      <p class="header-text">devfinder</p>
+      <div class="light-mode">
+        <p class="light">LIGHT</p>
+        <span class="material-symbols-outlined">light_mode</span>
+      </div>
+    </div>
+    <div class="search">
+      <span class="material-symbols-outlined">search</span>
+      <input type="text" id="git-name" placeholder="Search GitHub username..." />
+      <button id="search">Search</button>
+    </div>
+    <div class="results">
+      <div class="left">
+        <img src="./github-octocat-icon-1024x900-httj78pi.png" id="avatar" width="101" height="101" style="border-radius: 50%;">
+      </div>
+      <div class="right">
+        <div class="heading">
+          <div>
+            <p class="name" id="name">The Octocat</p>
+            <p class="username" id="username">@octocat</p>
+          </div>
+          <p class="date" id="joined">Joined 25 Jan 2011</p>
+        </div>
+        <p class="bio" id="bio">This profile has no bio</p>
+        <div class="stats">
+          <div class="repos">
+            <p style="color:  rgb(177, 177, 177)">Repos</p>
+            <p class="num" id="repos">8</p>
+          </div>
+          <div class="followers">
+            <p style="color:  rgb(177, 177, 177)">Followers</p>
+            <p class="num" id="followers">3938</p>
+          </div>
+          <div class="following">
+            <p style="color:  rgb(177, 177, 177)">Following</p>
+            <p class="num" id="following">9</p>
+          </div>
+        </div>
+        <div class="info">
+          <div class="leftjr">
+            <div class="location">
+              <img src="./assets/icon-location.svg">
+              <p id="location">San Francisco</p>
+            </div>
+            <div class="website">
+              <img src="./assets/icon-website.svg" alt="">
+              <a href="https://github.blog" id="website" style="color: #004ea7;">https://github.blog</a>
+            </div>
+          </div>
+          <div class="rightjr">
+            <div class="twitter">
+              <img src="./assets/icon-twitter.svg" alt="">
+              <p id="twitter">Not Available</p>
+            </div>
+            <div class="company">
+              <img src="./assets/icon-company.svg" alt="">
+              <p id="company">@github</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
